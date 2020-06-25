@@ -1,0 +1,136 @@
+
+This is coupled with specStrings.py, which lists the dictionaries needed to parse each dataset.
+
+1. specStrings :: freshwater() 
+
+Clare Gray, David H. Figueroa, Lawrence N. Hudson, Athen Ma, Dan Perkins, Guy Woodward,
+Joining the dots: An automated method for constructing food webs from compendia of published interactions,
+Food Webs,
+Volume 5,
+2015,
+Pages 11-20,
+ISSN 2352-2496,
+https://doi.org/10.1016/j.fooweb.2015.09.001.
+(http://www.sciencedirect.com/science/article/pii/S2352249615300045)
+Abstract: Food webs are important tools for understanding how complex natural communities are structured and how they respond to environmental change. However their full potential has yet to be realised because of the huge amount of resources required to construct them de novo. Consequently, the current catalogue of networks that are suitable for rigorous and comparative analyses and theoretical development still suffers from a lack of standardisation and replication. Here, we present a novel R function, WebBuilder, which automates the construction of food webs from taxonomic lists, and a dataset of trophic interactions. This function works by matching species against those within a dataset of trophic interactions, and ‘filling in’ missing trophic interactions based on these matches. We also present a dataset of over 20,000 freshwater trophic interactions, and use this and four well-characterised freshwater food webs to test the method. The WebBuilder function facilitates the generation of food webs of comparable quality to the most detailed published food webs, but at a fraction of the research effort or cost. Furthermore, it matched and often outperformed a selection of predictive models, which are currently among the best, in terms of capturing key properties of empirical food webs. The method is simple to use, systematic and, perhaps most importantly, reproducible, which will facilitate (re-) analysis and data sharing. Although developed and tested on a sample of freshwater food webs, this method could easily be extended to cover other types of ecological interactions (such as mutualistic interactions).
+Keywords: Food web construction; Gut contents analysis; Food web modelling
+
+2. specStrings :: GlobAL()
+
+GlobAL daTabasE of traits and food Web Architecture (GATEWAy) version 1.0
+German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig
+https://idata.idiv.de/ddm/Data/ShowData/283?version=3
+
+3. specStrings :: plantInsects()
+
+See https://iwdb.nceas.ucsb.edu/resources.html
+
+4. specStrings :: AtlanticFrugivory()
+
+Bello, C., Galetti, M., Montan, D., Pizo, M.A., Mariguela, T.C., Culot, L., Bufalo, F., Labecca, F., Pedrosa, F., 
+Constantini, R., Emer, C., Silva, W.R., da Silva, F.R., Ovaskainen, O. and Jordano, P. (2017), 
+Atlantic frugivory: a plant–frugivore interaction data set for the Atlantic Forest. Ecology, 98: 1729-1729. doi:10.1002/ecy.1818
+
+https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecy.1818
+
+5. specStrings :: Otago()
+
+Kim N. Mouritsen, Robert Poulin, John P. McLaughlin and David W. Thieltges. 2011. 
+Food web including metazoan parasites for an intertidal ecosystem in New Zealand. Ecology 92:2006.'
+
+http://www.esapubs.org/Archive/ecol/E092/173/default.htm
+
+6. specStrings :: Mangal()
+
+Timoth ́ee  Poisot,  Benjamin  Baiser,  Jennifer  A.  Dunne,  Sonia  K ́efi,  Fran ̧cois  Massol,  Nicolas  Mouquet,
+Tamara N. Romanuk, Daniel B. Stouffer, Spencer A. Wood, and Dominique Gravel.  
+mangal – makingecological network analysis simple.Ecography, 39(4):384–390, 2016.
+
+http://mangal.io/
+
+7. specStrings :: janePollinators()
+
+Memmott, J. (1999), The structure of a plant‐pollinator food web. Ecology Letters, 2: 276-280. doi:10.1046/j.1461-0248.1999.00087.x
+https://iwdb.nceas.ucsb.edu/resources.html
+
+
+8. specStrings :: leatherFinland()
+
+Leather, Simon R. “Feeding Specialisation and Host Distribution of British and Finnish Prunus Feeding Macrolepidoptera.” Oikos, vol. 60, no. 1, 1991, pp. 40–48. JSTOR
+https://iwdb.nceas.ucsb.edu/resources.html
+
+
+9. specStrings :: sbPredatorPreyMatrix()
+
+Parasites dominate food web links Kevin D. Lafferty, Andrew P. Dobson, Armand M. Kuris 
+Proceedings of the National Academy of Sciences Jul 2006, 103 (30) 11211-11216; DOI: 10.1073/pnas.0604755103
+
+10. specStrings :: sorensen_1981_woodland()
+
+Sorensen, A.E. Interactions between birds and fruit in a temperate woodland. Oecologia 50, 242–249 (1981). https://doi.org/10.1007/BF00348046
+https://iwdb.nceas.ucsb.edu/resources.html
+
+11. specStrings :: dryad()
+
+Cirtwill, A.R. and Eklöf, A. (2018), Feeding environment and other traits shape species’ roles in marine food webs. Ecol Lett, 21: 875-884. doi:10.1111/ele.12955
+https://datadryad.org/stash/dataset/doi:10.5061/dryad.1mv20r6
+
+12. specStrings :: FoodsWebsCanberra()
+
+Ross M. Thompson, Ulrich Brose, Jennifer A. Dunne, Robert O. Hall, Sally Hladyz, Roger L. Kitching, Neo D. Martinez, Heidi Rantala, Tamara N. Romanuk, Daniel B. Stouffer, Jason M. Tylianakis,
+Food webs: reconciling the structure and function of biodiversity,
+Trends in Ecology & Evolution,
+Volume 27, Issue 12,
+2012,
+Pages 689-697,
+ISSN 0169-5347,
+https://doi.org/10.1016/j.tree.2012.08.005.
+(http://www.sciencedirect.com/science/article/pii/S0169534712002005)
+Abstract: The global biodiversity crisis concerns not only unprecedented loss of species within communities, but also related consequences for ecosystem function. Community ecology focuses on patterns of species richness and community composition, whereas ecosystem ecology focuses on fluxes of energy and materials. Food webs provide a quantitative framework to combine these approaches and unify the study of biodiversity and ecosystem function. We summarise the progression of food-web ecology and the challenges in using the food-web approach. We identify five areas of research where these advances can continue, and be applied to global challenges. Finally, we describe what data are needed in the next generation of food-web studies to reconcile the structure and function of biodiversity.
+
+
+https://www.globalwebdb.com/
+
+13. specStrings :: NewZealand()
+
+Thompson, R.M. and Townsend, C.R. (2005), Energy availability, spatial heterogeneity and ecosystem size predict food‐web structure in streams. 
+Oikos, 108: 137-148. doi:10.1111/j.0030-1299.2005.11600.x
+
+14. specStrings :: plantPollinatorUSA()
+
+Schemske, Douglas & Willson, Mary & Melampy, Michael & Miller, Linda & Verner, Louis & Schemske, 
+Kathleen & Best, Louis. (1978). Flowering Ecology of Some Spring Woodland Herbs. Ecology. 59. 10.2307/1936379.
+
+15. specStrings :: plantSeed()
+
+Bruce Beehler (1983). Frugivory and Polygamy in Birds of ParadiseThe Auk, 100(1), 1–12.
+https://iwdb.nceas.ucsb.edu/resources.html
+
+16. specStrings :: texasGrasslands()
+
+Joern, Anthony. (1979). Feeding patterns in grasshoppers (Orthoptera: Acrididae): Factors influencing diet specialization. Oecologia. 38. 325-347. 10.1007/BF00345192.
+https://iwdb.nceas.ucsb.edu/resources.html
+
+17. specStrings :: texasGrasslands2()
+
+Joern, Anthony. (1979). Feeding patterns in grasshoppers (Orthoptera: Acrididae): Factors influencing diet specialization. Oecologia. 38. 325-347. 10.1007/BF00345192.
+https://iwdb.nceas.ucsb.edu/resources.html
+
+18. specStrings :: US_Grasslands()
+
+https://iwdb.nceas.ucsb.edu/resources.html
+
+
+19. specStrings :: EcoWeb()
+
+https://digitalcommons.rockefeller.edu/cohen_joel_laboratory/1/
+Cohen, J. E. (compiler) 2010. Ecologists' Co-Operative Web Bank. Version 1.1. Machine-readable database of food webs. New York: The Rockefeller University.
+
+20. specStrings :: plantPollinator()
+
+Adams D.E., Perkins W.E. & Estes J.R. (1981). Pollination Systems in Paspalum dilatatum Poir. (Poaceae): An Example of Insect Pollination in a Temperate Grass. 
+American Journal of Botany, 68, 389-394. Asher J. (1997). Butterflies for the New Millennium - project and programme. ITE Monks Wood, Huntingdon. Clifford H.T. (1964). 
+Insect pollination of grasses. Australian Journal of Entomology, 3, 74-74. Hill M.O., Preston C.D. & Roy D. (2004). 
+PLANTATT-attributes of British and Irish plants: status, size, life history, geography and habitats. Centre for Ecology & Hydrology
+
+https://data.gov.uk/dataset/11cff012-72f2-4d47-b323-1121e5f35ebb/plant-pollinator-interactions-database-for-construction-of-potential-networks
