@@ -11,6 +11,8 @@ import pickle
 IDTRACKER = 'numericCounter-b2ca94aee362f455a41493a0d28b98bc5074065b0f96cbb95028ead20b1c72ea'
 from dfts import parseAll
 
+# Convert a folder name from the validation directory
+# Into the dictionary needed to parse that file
 def constructPhysicalFileMapping():
     mapping = {}
     ultra = []
@@ -26,11 +28,14 @@ def constructPhysicalFileMapping():
     
     return mapping
 
+# Given a file name, in format <parent_dir>#<filename>
+# Make an index of 1995 datasets (out of 1996- leaving the passed in one out)
+# Run the list of species in the file through Medeina with that index
 def applyIndividual(fname,include=False):
     usableFiles = set(findAllFoodWebFiles())
     if not include: usableFiles = list(usableFiles - set([fname]))
     path = ".../folds/"
-    resultsPath = ".../leaveoutfamily/"
+    resultsPath = ".../"
     done = set(os.listdir(resultsPath))
     if fname in done: return
     foldPath = path + fname
@@ -96,10 +101,7 @@ def addExceptedDataStores(foldPath,filenames):
 def mergeDatasets(allDatasets,new):
     oLen = len(allDatasets)
     for key,val in new.items():
-        if key+oLen in allDatasets: 
-            print("Dataset error!")
-            print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-            raise ValueError("TAKEN ID!!!!!!!!")
+        if key+oLen in allDatasets: raise ValueError("Dataset error- TAKEN ID")
         allDatasets[key+oLen] = val 
     
 def mergeWeb(all_,new,mappingOldIdToNew,orgLinkLen):
