@@ -2,13 +2,6 @@
 
 This is a repository of supporting code and assets for the paper (link). Below is an itemization of what each directory and python notebook contains.
 
-# Known Issues
-
-There are some known issues with the data currently held in the index. Namely:
-
-- If you will be using the pre-packaged data store, be advised that some of the indexed datasets sometimes reversed the convention of how predator-prey interactions are actually held, causing the underlying interactions to be inferred as (prey,predator). Hence, while only a small amount of data was affected by this, it may be advisable to use undirected graphs from the pre-packaged web store only.
-- There are some data points that give counterproductive output from the EcoNameTranslator. We are working on a method to filter such data points autonomously.
-
 ## Assets
 
 This is a collection of the PNG files used in the publication. The methods to generate these PNG files are all present in their respective Jupyter notebooks.
@@ -67,3 +60,10 @@ The networks themselves aren't drawn through networkx as the Example network is;
 ## Usablity.ipynb
 
 This notebook draws some basic charts that analyse usability metrics of Medeina, including timing translation and network building functions, as well as calculations of species involvements and translation successes
+
+# Known Issues with Medeina at present
+
+There are some known issues with the data currently held in the index. Namely:
+
+- If you will be using the pre-packaged data store, be advised that some of the indexed datasets sometimes reversed the convention of how predator-prey interactions are actually held, causing the underlying interactions to be inferred as (prey,predator). Hence, while only a small amount of data was affected by this, it may be advisable to use undirected graphs from the pre-packaged web store only.
+- There are some data points that give counterproductive output from the EcoNameTranslator. We are working on a method to filter such data points autonomously.
