@@ -2,6 +2,8 @@
 
 This is a repository of supporting code and assets for the paper (link). Below is an itemization of what each directory and python notebook contains.
 
+# Auditing supporting documents and data
+
 ## Assets
 
 This is a collection of the PNG files used in the publication. The methods to generate these PNG files are all present in their respective Jupyter notebooks.
